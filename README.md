@@ -21,18 +21,12 @@ registro.
 
 ## Configuración
 
-1. **Base de Datos SQL Server:**
+1. **Base de Datos Azure SQL Server:**
 
-   - Ejecuta el siguiente comando Docker para iniciar un contenedor de SQL Server:
-     ```bash
-     docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=TuContraseña123' -p 1433:1433 --name sql_server_container -d mcr.microsoft.com/mssql/server
-     ```
-   - Actualiza la cadena de conexión en `appsettings.json` con la información de tu servidor SQL Server.
+   - Asegúrate de tener una instancia de Azure SQL Server configurada y la cadena de conexión actualizada en `appsettings.json` con la información de tu servidor Azure SQL.
 
 2. **Ejecución de la Aplicación:**
    - Ejecuta tu aplicación ASP.NET Core.
-
-## **Endpoints**
 
 ## Uso
 
@@ -46,5 +40,3 @@ registro.
 
 3. **Consultar Estado de Proceso:**
    - Utiliza los endpoints `GET /api/Contabilidad/Proceso/{id}` y `GET /api/Contabilidad/Registro/{id}` para consultar el estado de un proceso y un registro, respectivamente.
-
-Esta documentación puede ser utilizada en el archivo README.md de tu proyecto para proporcionar información sobre el uso del controlador ContabilidadController.
