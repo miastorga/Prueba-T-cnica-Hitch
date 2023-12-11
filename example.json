@@ -1,0 +1,25 @@
+{
+  "ReferenceDate": "2023-10-25T16:39:35.783Z",
+  "Memo": "Prueba 1",
+  "Reference": "prueba 1",
+  "TaxDate": "2023-10-25T16:39:35.783Z",
+  "DueDate": "2023-10-25T16:39:35.783Z",
+  "JournalEntryLines": [
+    {
+      "LineId": 0,
+      "AccountCode": "_SYS00000000090",
+      "Debit": 100,
+      "Credit": 0,
+      "LineMemo": "Gasto Prueba",
+      "Reference1": "prueba reference"
+    },
+    {
+      "LineId": 1,
+      "AccountCode": "_SYS00000000140",
+      "Debit": 0,
+      "Credit": 100,
+      "LineMemo": "Gasto Prueba",
+      "Reference1": "prueba reference"
+    }
+  ]
+}
